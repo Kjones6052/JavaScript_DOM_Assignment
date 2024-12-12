@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M10L5 Assignment</title>
+    <script src="document_manipulation.js" defer></script>
+    <script src="form_manipulation.js" defer></script>
+    <script src="styling.js" defer></script>
+</head>
+<Body>
+
+    <!-- Part 3, Task 1: Create an HTML structure with at least 5 elements that will be styled dynamically. -->
+    <div id="box">
+
+        <!-- element 1: header -->
+        <header>
+            <!-- Assignment Name -->
+            <h1>JavaScript and the Document Object Model DOM</h1>
+            <p>Module 10, Lesson 5</p>
+        </header>
+
+        <!-- element 2: section for Part 1 -->
+        <div id="div1" onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
+            <h3>Part 1: Document Manipulation</h3>
+            <ul id="part1">
+
+            </ul>
+        </div>
+
+        <!-- element 3: section for Part 2 -->
+        <div>
+            <h3>Part 2: Form Manipulation</h3>
+            <form id="userForm">
+                <label for="userName">User Name:</label>
+                <input type="text" name="userName" id="userName" required><br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                <textarea name="message" id="message" placeholder="Enter your message here" required></textarea>
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>
+            
+
+        <!-- element 4: section for Part 3 -->
+        <div>
+            <!-- Task 2: button will change background color of whole 'box' -->
+            <button onclick="handleColorButton()">Click Me to Change Color!</button>
+        </div>
+
+        <!-- element 5: -->
+        <footer>
+            <p>Thank you and I hope you enjoyed the random background color! If you didn't see the random background color keep clicking the botton to change color.</p>
+        </footer>
+    </div>
+
+</Body>
+</html>

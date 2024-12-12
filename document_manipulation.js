@@ -8,6 +8,17 @@ let products = [
 ];
 
 // Task 2: function to display info to webpage
-
+function displayProducts() {
+    let part1 = document.getElementById("part1");
+    part1.innerHTML = "";
+    products.forEach(function(product) {
+        let productItem = document.createElement("li");
+        productItem.textContent = `Product Name: ${product.name}; Price: $${product.price}; Description: ${product.description}`;
+        part1.appendChild(productItem)
+    })
+}
 
 // Task 3: add event listener to trigger display
+window.addEventListener('DOMContentLoaded', () => {
+    displayProducts();
+});

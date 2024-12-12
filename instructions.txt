@@ -18,15 +18,15 @@ manipulate the document structure and content using arrays and objects.
 
 Task 1: 
 Create an array containing information about different products, including their names, prices, and descriptions.
-status: incomplete
+status: COMPLETE
 
 Task 2: 
 Write a function to display the product information on the webpage dynamically.
-status: incomplete
+status: COMPLETE
 
 Task 3: 
 Implement an event listener to trigger the display of products when the page loads.
-status: incomplete
+status: COMPLETE
 
 
 2. Form Manipulation with JavaScript
@@ -46,15 +46,15 @@ dynamically handle form submissions, store input data in arrays and objects, and
 
 Task 1: 
 Create an HTML form with input fields for the user's name, email, and message.
-status: incomplete
+status: COMPLETE
 
 Task 2: 
 Write JavaScript code to handle form submissions and store user input in an object.
-status: incomplete
+status: COMPLETE
 
 Task 3: 
 Implement form validation to ensure that all required fields are filled before submission.
-status: incomplete
+status: COMPLETE
 
 
 3. Styling with JavaScript
@@ -74,13 +74,13 @@ their appearance in response to user actions or events triggered by JavaScript f
 
 Task 1: 
 Create an HTML structure with at least 5 elements that will be styled dynamically.
-status: incomplete
+status: COMPLETE
 
 
 Task 2: 
 Write JavaScript code to dynamically change the color of the box element when clicked.
-status: incomplete
+status: COMPLETE
 
 Task 3: 
 Implement additional styling changes based on user interaction, such as mouse hover effects or button clicks on different HTML elements.
-status: incomplete
+status: COMPLETE
